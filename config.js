@@ -2,7 +2,7 @@ export const eventData = {
     couple: {
       names: "Alejandro Herrera y Beatriz Márquez",
       date: "14 . 12 . 2025",
-      heroImage: "/images/boda.svg"
+      heroImage: "/images/nuevapareja.svg"
     },
     song: {
       title: "Compartir - Carla Morrison",
@@ -10,7 +10,7 @@ export const eventData = {
     },
     ceremony: {
       ceremonyImage:"/images/ceremonia.svg",
-      place: "Hotel Barcelo, Salón Atitlán",
+      place: "Hotel Barcelo, Salón Xelajú",
       address: "7A Avenida 15-45, Cdad. de Guatemala",
       date: "14 de Diciembre",
       time: "15:00 hrs",
@@ -25,7 +25,7 @@ export const eventData = {
       mapLink: "https://maps.app.goo.gl/ePM5fvmSmf3WP8ra6?g_st=iw"
     },
 
-    abroadGiftMessage: "Su presencia y cariño son el mayor regalo que podemos recibir.Pero si desean bendecirnos con un detalle, pueden hacerlo por medio de:",
+    abroadGiftMessage: "Su cariño y buenos deseos llenan nuestro corazón. Ya tenemos lo necesario para nuestro hogar, pero si desean acompañarnos con un gesto especial, pueden hacerlo por transferencia o con un sobre durante la celebración.",
     giftImage: "/images/gift.svg",
     
     dresscode: {

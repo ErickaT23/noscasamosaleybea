@@ -230,17 +230,45 @@ function addToCalendar() {
   
   //OPTIMIZAR
   const params = new URLSearchParams(window.location.search);
-const guestId = params.get("id");
-const guest = window.guests.find(g => g.id === guestId);
-
-if (guest) {
-  const formURL = `https://docs.google.com/forms/d/e/1FAIpQLSe-OONNzj2I92XsWISOxzzHJRUrmdOqyHB-XONgQhC2z04wgg/viewform?usp=pp_url&entry.42292443=${encodeURIComponent(guest.name)}&entry.800985369=${guest.passes}`;
+  const guestId = params.get("id");
+  const guest = window.guests.find(g => g.id === guestId);
   
-  const confirmButton = document.getElementById('confirm-button');
-  confirmButton.onclick = () => {
-    window.open(formURL, '_blank');
+  // 📋 Formularios según cantidad de pases
+  const formUrlsByPases = {
+    1: "https://docs.google.com/forms/d/e/1FAIpQLSf7FXUhOmNGVqZW5ZhL_Rfuc9QvOnFIgIzrSAFQiGWmNVibxQ/viewform?usp=pp_url&entry.42292443=",
+    2: "https://docs.google.com/forms/d/e/1FAIpQLSe8G4EM8Ca_flb2zG104txD-9zElbrZDJSq0UlNPcqutFppcg/viewform?usp=pp_url&entry.42292443=",
+    3: "https://docs.google.com/forms/d/e/1FAIpQLSd1WlKsOE3AitxXbx6-uLDTED7_A7Z5oTxKjED_UtMRmvdHqA/viewform?usp=pp_url&entry.42292443="
   };
-}
+  
+  // 🔢 Campo del formulario para la cantidad de pases
+  const entryPasesId = "entry.1137864773";
+  
+  // 🎯 Frases fijas (así aparecerán en el form)
+  const pasesText = {
+    1: "1 pase",
+    2: "2 pases",
+    3: "3 pases"
+  };
+  
+  if (guest) {
+    const formBaseURL = formUrlsByPases[guest.passes];
+  
+    if (formBaseURL) {
+      const encodedName = encodeURIComponent(guest.name);
+      const encodedPases = encodeURIComponent(pasesText[guest.passes] || "");
+      const formURL = `${formBaseURL}${encodedName}&${entryPasesId}=${encodedPases}`;
+  
+      const confirmButton = document.getElementById("confirm-button");
+      if (confirmButton) {
+        confirmButton.onclick = () => {
+          window.open(formURL, "_blank");
+        };
+      }
+    } else {
+      console.warn(`⚠️ No hay formulario configurado para ${guest.passes} pases.`);
+    }
+  }
+  
 
 // --- CUENTAS ---
 window.toggleBankInfo = function () {

@@ -886,4 +886,48 @@
       text-align: center;
     }
   }
+  #contact-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #contact-section h2 {
+    font-size: var(--font-size-title-small);
+    margin-bottom: 30px;
+  }
+  
+  .contact-card {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-photo {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: var(--shadow);
+    margin-bottom: 15px;
+  }
+  
+  .contact-card button {
+    background-color: var(--accent-color);
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-body);
+  }
+  
+  .contact-card button:hover {
+    background-color: var(--text-color);
+  }
   
