@@ -1,8 +1,6 @@
   const guests = [
-    { id: "1", name: "Mary & Roberto", passes: 2, gender: "mixto" },
-    { id: "2", name: "Roxana Alvarado", passes: 2, gender: "mixto" },
-    { id: "3", name: "Arturo Márquez", passes: 2, gender: "masculino" },
-    { id: "4", name: "Yesenia Márquez", passes: 1, gender: "femenino" },
+    { id: "1", name: "Roxana Alvarado & Edwin Márquez", passes: 2, gender: "mixto" },
+    { id: "2", name: "Arturo Márquez & Sory Cuellar", passes: 2, gender: "mixto" },
     { id: "5", name: "Andrea Cuevas", passes: 2, gender: "femenino" },
     { id: "6", name: "Rosa Capriel", passes: 1, gender: "femenino" },
     { id: "7", name: "Leticia Solis", passes: 1, gender: "femenino" },
