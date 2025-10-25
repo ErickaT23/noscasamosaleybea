@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 //--- Botón para añadir al calendario ---
 window.addToCalendar = function () {
-  const calendarURL = "https://www.google.com/calendar/render?action=TEMPLATE&text=La%20boda%20de%20G%C3%A9nesis%20%26%20Jorge&dates=20250726/20250727&details=Misa%20Iglesia%20San%20Francisco%20(Zona%201)%20a%20las%2015:00%20hrs.%20Recepci%C3%B3n%20en%20Hotel%20Conquistador%20(Zona%204)%20a%20las%2018:00%20hrs.&location=Ciudad%20de%20Guatemala&sf=true&output=xml";
+  const calendarURL = "https://www.google.com/calendar/render?action=TEMPLATE&text=Nos+casamos+Ale+y+Bea&dates=20251214T210000Z/20251215T040000Z&details=Acomp%C3%A1%C3%B1anos+a+celebrar+el+gran+d%C3%ADa+de+Ale+y+Bea+%F0%9F%92%8D&location=Hotel+Barcel%C3%B3%2C+Ciudad+de+Guatemala&sf=true&output=xml";
   window.open(calendarURL, "_blank");
 }
 

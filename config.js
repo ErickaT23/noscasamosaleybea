@@ -10,7 +10,7 @@ export const eventData = {
     },
     ceremony: {
       ceremonyImage:"/images/ceremonia.svg",
-      place: "Hotel Barcelo, Salón Xelajú",
+      place: "Hotel Barceló, Salón Xelajú",
       address: "7A Avenida 15-45, Cdad. de Guatemala",
       date: "14 de Diciembre",
       time: "15:00 hrs",
@@ -18,7 +18,7 @@ export const eventData = {
     },
     reception: {
       receptionImage:"/images/recepcion.svg",
-      place: "Hotel Barcelo, Salón El Dorado",
+      place: "Hotel Barceló, Salón El Dorado",
       address: "7A Avenida 15-45, Cdad. de Guatemala",
       date: "14 de Diciembre",
       time: "17:00 hrs",
