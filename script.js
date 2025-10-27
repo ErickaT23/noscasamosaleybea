@@ -237,7 +237,8 @@ function addToCalendar() {
   const formUrlsByPases = {
     1: "https://docs.google.com/forms/d/e/1FAIpQLSf7FXUhOmNGVqZW5ZhL_Rfuc9QvOnFIgIzrSAFQiGWmNVibxQ/viewform?usp=pp_url&entry.42292443=",
     2: "https://docs.google.com/forms/d/e/1FAIpQLSe8G4EM8Ca_flb2zG104txD-9zElbrZDJSq0UlNPcqutFppcg/viewform?usp=pp_url&entry.42292443=",
-    3: "https://docs.google.com/forms/d/e/1FAIpQLSd1WlKsOE3AitxXbx6-uLDTED7_A7Z5oTxKjED_UtMRmvdHqA/viewform?usp=pp_url&entry.42292443="
+    3: "https://docs.google.com/forms/d/e/1FAIpQLSd1WlKsOE3AitxXbx6-uLDTED7_A7Z5oTxKjED_UtMRmvdHqA/viewform?usp=pp_url&entry.42292443=",
+    4: "https://docs.google.com/forms/d/e/1FAIpQLScxWZQfDapqHA7G2lxyGjNDAfbtZg2Gd_if0xMNw0_NxA9cdw/viewform?usp=pp_url&entry.42292443="
   };
   
   // 🔢 Campo del formulario para la cantidad de pases
@@ -248,6 +249,7 @@ function addToCalendar() {
     1: "1 pase",
     2: "2 pases",
     3: "3 pases"
+    4: "4 pases"
   };
   
   if (guest) {
