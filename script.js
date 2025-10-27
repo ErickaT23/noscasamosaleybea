@@ -248,7 +248,7 @@ function addToCalendar() {
   const pasesText = {
     1: "1 pase",
     2: "2 pases",
-    3: "3 pases"
+    3: "3 pases",
     4: "4 pases"
   };
   
