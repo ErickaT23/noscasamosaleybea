@@ -107,7 +107,8 @@ const guests = [
   { "id": "106", "name": "Olga Villatoro & Jorge Mario Stevens", "passes": 2, "gender": "mixto" },
   { "id": "107", "name": "Carlos Villatoro Gutiérrez & Lissette Valle", "passes": 2, "gender": "mixto" },
   { "id": "108", "name": "Jorge Danilo Villatoro Gutiérrez", "passes": 1, "gender": "masculino" },
-  { "id": "109", "name": "Luis Fernando Mejicanos & Narda Pacay de Mejicanos", "passes": 2, "gender": "mixto" }
+  { "id": "109", "name": "Luis Fernando Mejicanos & Narda Pacay de Mejicanos", "passes": 2, "gender": "mixto" },
+  { "id": "110", "name": "Ixchel y Raúl", "passes": 2, "gender": "mixto" }
 ];
 
 
