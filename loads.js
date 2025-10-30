@@ -17,7 +17,7 @@ const guests = [
   { id: "16", name: "Eva Arrecis & Analy Guzmán", passes: 2, gender: "mixto" },
   { id: "17", name: "Bélgica Arrecis", passes: 1, gender: "femenino" },
   { id: "18", name: "Yohana Gamba & Pedro Borrayo", passes: 2, gender: "mixto" },
-  { id: "19", name: "Rosa Maria Papadopolo", passes: 2, gender: "femenino" },
+  { id: "19", name: "Marivi H. Papadopolo y Rosa María Hernández", passes: 2, gender: "mixto" },
   { id: "20", name: "Eileen Fabian Rivera & Orlando Batres", passes: 2, gender: "mixto" },
   { id: "21", name: "Astrid Carrera & Georgina de Carrera", passes: 2, gender: "mixto" },
   { id: "22", name: "Leslie Sánchez & Alfredo García", passes: 2, gender: "mixto" },
