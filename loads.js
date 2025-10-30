@@ -89,7 +89,7 @@ const guests = [
   { "id": "88", "name": "Leonel Argueta", "passes": 1, "gender": "masculino" },
   { "id": "89", "name": "Kevin Godinez", "passes": 1, "gender": "masculino" },
   { "id": "90", "name": "Stuardo Garcia", "passes": 1, "gender": "masculino" },
-  { "id": "91", "name": "José Ávalos", "passes": 1, "gender": "masculino" },
+  { "id": "91", "name": "José Ávalos & Andrea García", "passes": 2, "gender": "mixto" },
   { "id": "92", "name": "Angel Cajas", "passes": 1, "gender": "masculino" },
   { "id": "93", "name": "Julio Osorio", "passes": 1, "gender": "masculino" },
   { "id": "94", "name": "Otto Anaya", "passes": 1, "gender": "masculino" },
@@ -108,7 +108,8 @@ const guests = [
   { "id": "107", "name": "Carlos Villatoro Gutiérrez & Lissette Valle", "passes": 2, "gender": "mixto" },
   { "id": "108", "name": "Jorge Danilo Villatoro Gutiérrez", "passes": 1, "gender": "masculino" },
   { "id": "109", "name": "Luis Fernando Mejicanos & Narda Pacay de Mejicanos", "passes": 2, "gender": "mixto" },
-  { "id": "110", "name": "Ixchel y Raúl", "passes": 2, "gender": "mixto" }
+  { "id": "110", "name": "Ixchel y Raúl", "passes": 2, "gender": "mixto" }, 
+  { "id": "111", "name": "Amarilis Rivas", "passes": 1, "gender": "femenino" }
 ];
 
 
